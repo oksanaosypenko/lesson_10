@@ -1,0 +1,144 @@
+body {
+    font-family: sans-serif;
+    background-color:#b07cf7;;
+    color: #fff;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px; 
+    padding-right: 15px; 
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+    margin-top: 50px;
+  }
+  
+  .grid-item {
+    width: calc(100% / 3);
+    padding: 15px;
+  }
+  
+  .card {
+    position: relative;
+    display: flex;
+4
+    
+  }
+    .card-image {
+    position: absolute;   
+      
+  }
+ 
+  
+    .heading-title {
+margin-top: 100px;
+text-align: center;
+font-size: 90px;
+font-weight: 700;
+line-height: 25px;
+font-family: 'Raleway', sans-serif;
+
+  }
+
+  .heading-description {
+         text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+     width: 563px;
+     margin-left: auto;
+     margin-right: auto;
+      }
+
+    .card-body {
+       
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .card-date {
+font-family: 'Raleway', sans-serif;
+text-align: center;
+font-size: 21px;
+font-weight: 900;
+line-height: 25px;
+text-transform: uppercase;
+width: 60px;
+height: 60px;
+border-radius: 5px;
+background-color: rgba(38, 38, 38, 0.5);
+margin-top: 30px;
+margin-left: 30px;
+  
+    }
+
+
+      .card-title {
+       
+        line-height: 25px;
+        margin-top: 115px;
+margin-left: 20px;
+        
+      }
+      .link 
+      {
+          text-decoration: none;
+          font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        transition-duration: 0.4s;
+        transition: 0.35s;
+      }
+      .card-author {
+    
+        font-family: 'Raleway', sans-serif;
+font-size: 13px;
+font-weight: 300;
+margin-top: 20px;
+margin-left: 20px;
+    }
+
+
+
+.footer {
+    margin-top: 75px;
+}
+
+    .button {
+        display: inline-block;
+        position: relative;
+        margin-left: 480px;
+ padding: 15px;
+ line-height: 30px;
+        width: 200px;
+    height: 55px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #f72b3b;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    transition: 0.35s;
+    text-align: center;
+      }
+     
+      .button:hover {
+          background-color: #8e98a4;
+          color: greenyellow;
+      }
